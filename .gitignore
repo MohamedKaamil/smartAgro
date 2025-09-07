@@ -1,0 +1,59 @@
+# Python
+_pycache_/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+crop_recommendation_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Machine Learning Models
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules (if any)
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+backup.txt

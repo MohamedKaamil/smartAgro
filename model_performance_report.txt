@@ -1,0 +1,290 @@
+CROP RECOMMENDATION MODEL PERFORMANCE REPORT
+=======================================================
+
+Dataset: Crop_recommendation.csv
+Total samples: 12200
+Number of crops: 122
+Train/Test split: 80%/20%
+Training samples: 9760
+Test samples: 2440
+
+NEURAL NETWORK RESULTS:
+----------------------------------------
+Accuracy: 0.1594
+F1-Score (macro): 0.0707
+Recall (macro): 0.0906
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      almond       0.12      0.06      0.08        16
+    amaranth       0.06      0.06      0.06        17
+       apple       0.32      0.50      0.39        36
+     apricot       0.00      0.00      0.00        15
+   artichoke       0.00      0.00      0.00        19
+   asparagus       0.00      0.00      0.00        16
+     avocado       0.00      0.00      0.00        17
+      bamboo       0.00      0.00      0.00        20
+      banana       0.39      0.53      0.45        38
+      barley       0.00      0.00      0.00        17
+       basil       0.00      0.00      0.00        19
+    beetroot       0.00      0.00      0.00        15
+       betel       0.00      0.00      0.00        17
+    bilberry       0.00      0.00      0.00        17
+  blackberry       0.00      0.00      0.00        15
+   blackgram       0.22      0.49      0.31        35
+   blueberry       0.00      0.00      0.00        16
+  breadfruit       0.00      0.00      0.00        17
+    broccoli       0.00      0.00      0.00        16
+   buckwheat       0.00      0.00      0.00        20
+     cabbage       0.09      0.07      0.08        15
+   carambola       0.00      0.00      0.00        16
+      carrot       0.00      0.00      0.00        17
+      cashew       0.00      0.00      0.00        13
+     cassava       0.00      0.00      0.00        19
+ cauliflower       0.00      0.00      0.00        17
+      celery       0.00      0.00      0.00        16
+       chard       0.08      0.06      0.07        17
+      cherry       0.04      0.06      0.05        18
+        chia       0.00      0.00      0.00        13
+    chickpea       0.40      0.50      0.44        34
+  clementine       0.00      0.00      0.00        17
+     coconut       0.32      0.56      0.40        36
+      coffee       0.27      0.34      0.30        38
+      cotton       0.27      0.46      0.34        37
+   cranberry       0.00      0.00      0.00        16
+    cucumber       0.00      0.00      0.00        13
+     currant       0.00      0.00      0.00        15
+        date       0.00      0.00      0.00        15
+ dragonfruit       0.08      0.06      0.07        16
+      durian       0.00      0.00      0.00        19
+    eggplant       0.00      0.00      0.00        15
+         fig       0.00      0.00      0.00        19
+      garlic       0.00      0.00      0.00        15
+      ginger       0.00      0.00      0.00        16
+  gooseberry       0.00      0.00      0.00        17
+      grapes       0.24      0.39      0.29        36
+       guava       0.00      0.00      0.00        17
+    hazelnut       0.00      0.00      0.00        20
+        hemp       0.00      0.00      0.00        16
+   jackfruit       0.00      0.00      0.00        18
+      jambul       0.00      0.00      0.00        15
+        jute       0.22      0.49      0.31        37
+ kidneybeans       0.40      0.47      0.43        36
+        kiwi       0.00      0.00      0.00        18
+        leek       0.00      0.00      0.00        14
+  lemongrass       0.00      0.00      0.00        16
+      lentil       0.21      0.53      0.30        32
+     lettuce       0.05      0.06      0.05        17
+      longan       0.00      0.00      0.00        14
+      lychee       0.00      0.00      0.00        13
+   macadamia       0.00      0.00      0.00        15
+       maize       0.22      0.42      0.29        38
+    mandarin       0.00      0.00      0.00        15
+       mango       0.25      0.38      0.30        42
+  mangosteen       0.00      0.00      0.00        16
+       melon       0.00      0.00      0.00        16
+      millet       0.00      0.00      0.00        18
+        mint       0.00      0.00      0.00        17
+   mothbeans       0.08      0.14      0.10        36
+    mulberry       0.00      0.00      0.00        17
+    mungbean       0.55      0.63      0.59        35
+   muskmelon       0.43      0.54      0.48        37
+   nectarine       0.00      0.00      0.00        17
+        oats       0.04      0.07      0.05        15
+        okra       0.00      0.00      0.00        15
+       olive       0.00      0.00      0.00        14
+       onion       0.00      0.00      0.00        15
+      orange       0.34      0.70      0.46        37
+      papaya       0.27      0.56      0.36        36
+     parsley       0.00      0.00      0.00        18
+passionfruit       0.00      0.00      0.00        16
+       peach       0.00      0.00      0.00        19
+        pear       0.05      0.07      0.06        15
+        peas       0.00      0.00      0.00        19
+       pecan       0.00      0.00      0.00        15
+   persimmon       0.00      0.00      0.00        17
+  pigeonpeas       0.16      0.28      0.20        36
+   pistachio       0.00      0.00      0.00        17
+    plantain       0.00      0.00      0.00        16
+        plum       0.00      0.00      0.00        18
+ pomegranate       0.24      0.39      0.30        38
+      pomelo       0.00      0.00      0.00        19
+     pumpkin       0.00      0.00      0.00        17
+      quince       0.00      0.00      0.00        14
+      radish       0.00      0.00      0.00        15
+    rambutan       0.00      0.00      0.00        16
+   raspberry       0.00      0.00      0.00        19
+        rice       0.51      0.49      0.50        37
+         rye       0.00      0.00      0.00        16
+       salak       0.00      0.00      0.00        16
+   sapodilla       0.00      0.00      0.00        14
+     sorghum       0.00      0.00      0.00        17
+     soursop       0.00      0.00      0.00        13
+     soybean       0.00      0.00      0.00        15
+     spinach       0.00      0.00      0.00        18
+   starfruit       0.00      0.00      0.00        15
+  strawberry       0.00      0.00      0.00        18
+   sunflower       0.00      0.00      0.00        15
+ sweetpotato       0.00      0.00      0.00        17
+    tamarind       0.00      0.00      0.00        16
+     tangelo       0.00      0.00      0.00        17
+        taro       0.00      0.00      0.00        14
+        teff       0.00      0.00      0.00        13
+      tomato       0.00      0.00      0.00        19
+    turmeric       0.00      0.00      0.00        16
+      turnip       0.00      0.00      0.00        17
+      walnut       0.06      0.06      0.06        16
+  watermelon       0.31      0.59      0.41        37
+       wheat       0.07      0.06      0.07        16
+         yam       0.00      0.00      0.00        19
+    zucchini       0.00      0.00      0.00        18
+
+    accuracy                           0.16      2440
+   macro avg       0.06      0.09      0.07      2440
+weighted avg       0.10      0.16      0.12      2440
+
+
+=======================================================
+
+LOGISTIC REGRESSION RESULTS:
+----------------------------------------
+Accuracy: 0.1070
+F1-Score (macro): 0.0293
+Recall (macro): 0.0586
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      almond       0.00      0.00      0.00        16
+    amaranth       0.00      0.00      0.00        17
+       apple       0.14      0.31      0.19        36
+     apricot       0.00      0.00      0.00        15
+   artichoke       0.00      0.00      0.00        19
+   asparagus       0.00      0.00      0.00        16
+     avocado       0.00      0.00      0.00        17
+      bamboo       0.00      0.00      0.00        20
+      banana       0.10      0.42      0.16        38
+      barley       0.00      0.00      0.00        17
+       basil       0.00      0.00      0.00        19
+    beetroot       0.00      0.00      0.00        15
+       betel       0.00      0.00      0.00        17
+    bilberry       0.00      0.00      0.00        17
+  blackberry       0.00      0.00      0.00        15
+   blackgram       0.10      0.09      0.09        35
+   blueberry       0.00      0.00      0.00        16
+  breadfruit       0.00      0.00      0.00        17
+    broccoli       0.00      0.00      0.00        16
+   buckwheat       0.00      0.00      0.00        20
+     cabbage       0.00      0.00      0.00        15
+   carambola       0.00      0.00      0.00        16
+      carrot       0.00      0.00      0.00        17
+      cashew       0.00      0.00      0.00        13
+     cassava       0.00      0.00      0.00        19
+ cauliflower       0.00      0.00      0.00        17
+      celery       0.00      0.00      0.00        16
+       chard       0.00      0.00      0.00        17
+      cherry       0.00      0.00      0.00        18
+        chia       0.00      0.00      0.00        13
+    chickpea       0.12      0.50      0.20        34
+  clementine       0.00      0.00      0.00        17
+     coconut       0.09      0.39      0.15        36
+      coffee       0.06      0.32      0.11        38
+      cotton       0.15      0.24      0.19        37
+   cranberry       0.00      0.00      0.00        16
+    cucumber       0.00      0.00      0.00        13
+     currant       0.00      0.00      0.00        15
+        date       0.00      0.00      0.00        15
+ dragonfruit       0.00      0.00      0.00        16
+      durian       0.00      0.00      0.00        19
+    eggplant       0.00      0.00      0.00        15
+         fig       0.00      0.00      0.00        19
+      garlic       0.00      0.00      0.00        15
+      ginger       0.00      0.00      0.00        16
+  gooseberry       0.00      0.00      0.00        17
+      grapes       0.14      0.31      0.19        36
+       guava       0.00      0.00      0.00        17
+    hazelnut       0.00      0.00      0.00        20
+        hemp       0.00      0.00      0.00        16
+   jackfruit       0.00      0.00      0.00        18
+      jambul       0.00      0.00      0.00        15
+        jute       0.10      0.35      0.15        37
+ kidneybeans       0.15      0.56      0.23        36
+        kiwi       0.00      0.00      0.00        18
+        leek       0.00      0.00      0.00        14
+  lemongrass       0.00      0.00      0.00        16
+      lentil       0.01      0.03      0.02        32
+     lettuce       0.00      0.00      0.00        17
+      longan       0.00      0.00      0.00        14
+      lychee       0.00      0.00      0.00        13
+   macadamia       0.00      0.00      0.00        15
+       maize       0.04      0.05      0.05        38
+    mandarin       0.00      0.00      0.00        15
+       mango       0.04      0.12      0.06        42
+  mangosteen       0.00      0.00      0.00        16
+       melon       0.00      0.00      0.00        16
+      millet       0.00      0.00      0.00        18
+        mint       0.00      0.00      0.00        17
+   mothbeans       0.06      0.14      0.08        36
+    mulberry       0.00      0.00      0.00        17
+    mungbean       0.15      0.46      0.22        35
+   muskmelon       0.15      0.57      0.24        37
+   nectarine       0.00      0.00      0.00        17
+        oats       0.00      0.00      0.00        15
+        okra       0.00      0.00      0.00        15
+       olive       0.00      0.00      0.00        14
+       onion       0.00      0.00      0.00        15
+      orange       0.13      0.57      0.21        37
+      papaya       0.11      0.56      0.19        36
+     parsley       0.00      0.00      0.00        18
+passionfruit       0.00      0.00      0.00        16
+       peach       0.00      0.00      0.00        19
+        pear       0.00      0.00      0.00        15
+        peas       0.00      0.00      0.00        19
+       pecan       0.00      0.00      0.00        15
+   persimmon       0.00      0.00      0.00        17
+  pigeonpeas       0.04      0.14      0.06        36
+   pistachio       0.00      0.00      0.00        17
+    plantain       0.00      0.00      0.00        16
+        plum       0.00      0.00      0.00        18
+ pomegranate       0.05      0.08      0.06        38
+      pomelo       0.00      0.00      0.00        19
+     pumpkin       0.00      0.00      0.00        17
+      quince       0.00      0.00      0.00        14
+      radish       0.00      0.00      0.00        15
+    rambutan       0.00      0.00      0.00        16
+   raspberry       0.00      0.00      0.00        19
+        rice       0.64      0.38      0.47        37
+         rye       0.00      0.00      0.00        16
+       salak       0.00      0.00      0.00        16
+   sapodilla       0.00      0.00      0.00        14
+     sorghum       0.00      0.00      0.00        17
+     soursop       0.00      0.00      0.00        13
+     soybean       0.00      0.00      0.00        15
+     spinach       0.00      0.00      0.00        18
+   starfruit       0.00      0.00      0.00        15
+  strawberry       0.00      0.00      0.00        18
+   sunflower       0.00      0.00      0.00        15
+ sweetpotato       0.00      0.00      0.00        17
+    tamarind       0.00      0.00      0.00        16
+     tangelo       0.00      0.00      0.00        17
+        taro       0.00      0.00      0.00        14
+        teff       0.00      0.00      0.00        13
+      tomato       0.00      0.00      0.00        19
+    turmeric       0.00      0.00      0.00        16
+      turnip       0.00      0.00      0.00        17
+      walnut       0.00      0.00      0.00        16
+  watermelon       0.16      0.59      0.26        37
+       wheat       0.00      0.00      0.00        16
+         yam       0.00      0.00      0.00        19
+    zucchini       0.00      0.00      0.00        18
+
+    accuracy                           0.11      2440
+   macro avg       0.02      0.06      0.03      2440
+weighted avg       0.04      0.11      0.05      2440
+
+
+=======================================================
+
+BEST PERFORMING MODEL: Neural Network
+Best F1-Score: 0.0707
